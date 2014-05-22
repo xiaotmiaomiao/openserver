@@ -14,8 +14,6 @@
 	/etc/cssplayer/message
 
 ## USE ##
-	
-	
 
 	program:css_player_server/dist/Debug/GNU-Linux-x86/css_player_server 
 	
