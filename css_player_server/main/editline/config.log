@@ -1,0 +1,35 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:534: checking for gcc
+configure:647: checking whether the C compiler (gcc  ) works
+configure:663: gcc -o conftest    conftest.c  1>&5
+configure:689: checking whether the C compiler (gcc  ) is a cross-compiler
+configure:694: checking whether we are using GNU C
+configure:722: checking whether gcc accepts -g
+configure:764: checking how to run the C preprocessor
+configure:848: checking for mawk
+configure:904: checking host system type
+configure:1001: checking for a BSD compatible install
+configure:1056: checking for ranlib
+configure:1088: checking for ar
+configure:1125: checking for tgetent in -ltermcap
+configure:1171: checking for tgetent in -ltinfo
+configure:1217: checking for tgetent in -lcurses
+configure:1322: checking for termcap.h
+configure:1360: checking for term.h
+configure:1402: checking for curses.h
+configure:1489: checking for sys/cdefs.h
+configure:1489: checking for vis.h
+configure:1529: checking for issetugid
+configure:1584: checking for fgetln
+configure:1640: checking for strvis
+configure:1696: checking for strunvis
+configure:1752: checking for strlcpy
+configure:1808: checking for strlcat
+gcc: '-D__RCSID(x)=': No such file or directory
+gcc: '-D__RCSID(x)=': No such file or directory
+gcc: '-D__COPYRIGHT(x)=': No such file or directory
+gcc: '-D__RCSID(x)=': No such file or directory
+gcc: '-D__COPYRIGHT(x)=': No such file or directory
+gcc: '-D__RENAME(x)=': No such file or directory

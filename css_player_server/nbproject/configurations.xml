@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="94">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="event2" displayName="event2" projectFiles="true">
+        <itemPath>/usr/local/include/event2/buffer.h</itemPath>
+        <itemPath>/usr/local/include/event2/buffer_compat.h</itemPath>
+        <itemPath>/usr/local/include/event2/bufferevent.h</itemPath>
+        <itemPath>/usr/local/include/event2/bufferevent_compat.h</itemPath>
+        <itemPath>/usr/local/include/event2/bufferevent_ssl.h</itemPath>
+        <itemPath>/usr/local/include/event2/bufferevent_struct.h</itemPath>
+        <itemPath>/usr/local/include/event2/dns.h</itemPath>
+        <itemPath>/usr/local/include/event2/dns_compat.h</itemPath>
+        <itemPath>/usr/local/include/event2/dns_struct.h</itemPath>
+        <itemPath>/usr/local/include/event2/event-config.h</itemPath>
+        <itemPath>/usr/local/include/event2/event.h</itemPath>
+        <itemPath>/usr/local/include/event2/event_compat.h</itemPath>
+        <itemPath>/usr/local/include/event2/event_struct.h</itemPath>
+        <itemPath>/usr/local/include/event2/http.h</itemPath>
+        <itemPath>/usr/local/include/event2/http_compat.h</itemPath>
+        <itemPath>/usr/local/include/event2/http_struct.h</itemPath>
+        <itemPath>/usr/local/include/event2/keyvalq_struct.h</itemPath>
+        <itemPath>/usr/local/include/event2/listener.h</itemPath>
+        <itemPath>/usr/local/include/event2/rpc.h</itemPath>
+        <itemPath>/usr/local/include/event2/rpc_compat.h</itemPath>
+        <itemPath>/usr/local/include/event2/rpc_struct.h</itemPath>
+        <itemPath>/usr/local/include/event2/tag.h</itemPath>
+        <itemPath>/usr/local/include/event2/tag_compat.h</itemPath>
+        <itemPath>/usr/local/include/event2/thread.h</itemPath>
+        <itemPath>/usr/local/include/event2/util.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="include" displayName="include" projectFiles="true">
+        <itemPath>include/cli.h</itemPath>
+        <itemPath>include/compat.h</itemPath>
+        <itemPath>include/compiler.h</itemPath>
+        <itemPath>include/config.h</itemPath>
+        <itemPath>include/css_monitor.h</itemPath>
+        <itemPath>include/cssmm.h</itemPath>
+        <itemPath>include/cssobj2.h</itemPath>
+        <itemPath>include/cssplayer.h</itemPath>
+        <itemPath>include/csstime.h</itemPath>
+        <itemPath>include/inline_api.h</itemPath>
+        <itemPath>include/io.h</itemPath>
+        <itemPath>include/linkedlists.h</itemPath>
+        <itemPath>include/localtime.h</itemPath>
+        <itemPath>include/lock.h</itemPath>
+        <itemPath>include/logger.h</itemPath>
+        <itemPath>include/md5.h</itemPath>
+        <itemPath>include/netsock2.h</itemPath>
+        <itemPath>include/network.h</itemPath>
+        <itemPath>include/options.h</itemPath>
+        <itemPath>include/poll-compat.h</itemPath>
+        <itemPath>include/private.h</itemPath>
+        <itemPath>include/proto.h</itemPath>
+        <itemPath>include/select.h</itemPath>
+        <itemPath>include/sha1.h</itemPath>
+        <itemPath>include/stringfields.h</itemPath>
+        <itemPath>include/strings.h</itemPath>
+        <itemPath>include/sysloger.h</itemPath>
+        <itemPath>include/term.h</itemPath>
+        <itemPath>include/threadstorage.h</itemPath>
+        <itemPath>include/tzfile.h</itemPath>
+        <itemPath>include/unaligned.h</itemPath>
+        <itemPath>include/utils.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="opencv" displayName="opencv" projectFiles="true">
+        <itemPath>/usr/local/include/opencv/cv.h</itemPath>
+        <itemPath>/usr/local/include/opencv/cv.hpp</itemPath>
+        <itemPath>/usr/local/include/opencv/cvaux.h</itemPath>
+        <itemPath>/usr/local/include/opencv/cvaux.hpp</itemPath>
+        <itemPath>/usr/local/include/opencv/cvwimage.h</itemPath>
+        <itemPath>/usr/local/include/opencv/cxcore.h</itemPath>
+        <itemPath>/usr/local/include/opencv/cxcore.hpp</itemPath>
+        <itemPath>/usr/local/include/opencv/cxeigen.hpp</itemPath>
+        <itemPath>/usr/local/include/opencv/cxmisc.h</itemPath>
+        <itemPath>/usr/local/include/opencv/highgui.h</itemPath>
+        <itemPath>/usr/local/include/opencv/ml.h</itemPath>
+      </logicalFolder>
+      <itemPath>include/_private.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+      <logicalFolder name="configs" displayName="configs" projectFiles="true">
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="main" displayName="main" projectFiles="true">
+        <itemPath>main/cli.c</itemPath>
+        <itemPath>main/config.c</itemPath>
+        <itemPath>main/css_monitor.c</itemPath>
+        <itemPath>main/cssmm.c</itemPath>
+        <itemPath>main/cssobj2.c</itemPath>
+        <itemPath>main/cssplayer.c</itemPath>
+        <itemPath>main/io.c</itemPath>
+        <itemPath>main/localtime.c</itemPath>
+        <itemPath>main/lock.c</itemPath>
+        <itemPath>main/logger.c</itemPath>
+        <itemPath>main/md5.c</itemPath>
+        <itemPath>main/netsock2.c</itemPath>
+        <itemPath>main/sha1.c</itemPath>
+        <itemPath>main/strcompat.c</itemPath>
+        <itemPath>main/strings.c</itemPath>
+        <itemPath>main/sysloger.c</itemPath>
+        <itemPath>main/term.c</itemPath>
+        <itemPath>main/threadstorage.c</itemPath>
+        <itemPath>main/utils.c</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>include</Elem>
+    <Elem>configs</Elem>
+    <Elem>/usr/local/include/event2</Elem>
+    <Elem>/usr/local/include/opencv</Elem>
+    <Elem>main</Elem>
+    <Elem>utils</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <incDir>
+            <pElem>include</pElem>
+          </incDir>
+          <commandLine>-Wall -lm -g -L/usr/pkg/lib -levent -lrt -lpthread -lcrypto -ledit</commandLine>
+        </cTool>
+      </compileType>
+      <packaging>
+        <packType>RPM</packType>
+        <packFileList>
+          <packFileListElem type="File"
+                            to="${PACKAGE_TOP_DIR}bin/${OUTPUT_BASENAME}"
+                            from="${OUTPUT_PATH}"
+                            perm="755"
+                            owner="root"
+                            group="bin"/>
+        </packFileList>
+        <packInfoList>
+          <packInfoListElem name="Summary" value="Sumary..." mandatory="true"/>
+          <packInfoListElem name="Name" value="cssplayerbackground" mandatory="true"/>
+          <packInfoListElem name="Version" value="1.0" mandatory="true"/>
+          <packInfoListElem name="Release" value="1" mandatory="true"/>
+          <packInfoListElem name="Group" value="Applications/System" mandatory="true"/>
+          <packInfoListElem name="License" value="BSD-type" mandatory="true"/>
+          <packInfoListElem name="%description" value="Description..." mandatory="true"/>
+        </packInfoList>
+      </packaging>
+      <item path="/usr/local/include/event2/buffer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="/usr/local/include/event2/buffer_compat.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/usr/local/include/event2/bufferevent.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/usr/local/include/event2/bufferevent_compat.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/usr/local/include/event2/bufferevent_ssl.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/usr/local/include/event2/bufferevent_struct.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/usr/local/include/event2/dns.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="/usr/local/include/event2/dns_compat.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/usr/local/include/event2/dns_struct.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/usr/local/include/event2/event-config.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/usr/local/include/event2/event.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="/usr/local/include/event2/event_compat.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/usr/local/include/event2/event_struct.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/usr/local/include/event2/http.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="/usr/local/include/event2/http_compat.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/usr/local/include/event2/http_struct.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/usr/local/include/event2/keyvalq_struct.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/usr/local/include/event2/listener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/usr/local/include/event2/rpc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="/usr/local/include/event2/rpc_compat.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/usr/local/include/event2/rpc_struct.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/usr/local/include/event2/tag.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="/usr/local/include/event2/tag_compat.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/usr/local/include/event2/thread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="/usr/local/include/event2/util.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="/usr/local/include/opencv/cv.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="/usr/local/include/opencv/cv.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="/usr/local/include/opencv/cvaux.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="/usr/local/include/opencv/cvaux.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/usr/local/include/opencv/cvwimage.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/usr/local/include/opencv/cxcore.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="/usr/local/include/opencv/cxcore.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/usr/local/include/opencv/cxeigen.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/usr/local/include/opencv/cxmisc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="/usr/local/include/opencv/highgui.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/usr/local/include/opencv/ml.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <folder path="SourceFiles/main">
+        <cTool>
+          <incDir>
+            <pElem>include</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <item path="include/_private.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cli.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/compat.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/compiler.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/css_monitor.h" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="include/cssmm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cssobj2.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cssplayer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/csstime.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/inline_api.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/io.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/linkedlists.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/localtime.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lock.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/logger.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/md5.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/netsock2.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/network.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/options.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/poll-compat.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/private.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/proto.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/select.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/sha1.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/stringfields.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/strings.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/sysloger.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/term.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/threadstorage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/tzfile.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/unaligned.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main/cli.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="main/config.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="main/css_monitor.c" ex="false" tool="0" flavor2="9">
+      </item>
+      <item path="main/cssmm.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="main/cssobj2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="main/cssplayer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="main/io.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <additionalDep></additionalDep>
+        </cTool>
+      </item>
+      <item path="main/localtime.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="main/lock.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="main/logger.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="main/md5.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="main/netsock2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="main/sha1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="main/strcompat.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="main/strings.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="main/sysloger.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="main/term.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="main/threadstorage.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="main/utils.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="/usr/local/include/event2/buffer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="/usr/local/include/event2/buffer_compat.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/usr/local/include/event2/bufferevent.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/usr/local/include/event2/bufferevent_compat.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/usr/local/include/event2/bufferevent_ssl.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/usr/local/include/event2/bufferevent_struct.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/usr/local/include/event2/dns.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="/usr/local/include/event2/dns_compat.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/usr/local/include/event2/dns_struct.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/usr/local/include/event2/event-config.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/usr/local/include/event2/event.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="/usr/local/include/event2/event_compat.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/usr/local/include/event2/event_struct.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/usr/local/include/event2/http.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="/usr/local/include/event2/http_compat.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/usr/local/include/event2/http_struct.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/usr/local/include/event2/keyvalq_struct.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/usr/local/include/event2/listener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/usr/local/include/event2/rpc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="/usr/local/include/event2/rpc_compat.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/usr/local/include/event2/rpc_struct.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/usr/local/include/event2/tag.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="/usr/local/include/event2/tag_compat.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/usr/local/include/event2/thread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="/usr/local/include/event2/util.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="/usr/local/include/opencv/cv.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="/usr/local/include/opencv/cv.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="/usr/local/include/opencv/cvaux.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="/usr/local/include/opencv/cvaux.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/usr/local/include/opencv/cvwimage.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/usr/local/include/opencv/cxcore.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="/usr/local/include/opencv/cxcore.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/usr/local/include/opencv/cxeigen.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/usr/local/include/opencv/cxmisc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="/usr/local/include/opencv/highgui.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/usr/local/include/opencv/ml.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/_private.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cli.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/compat.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/compiler.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/css_monitor.h" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="include/cssmm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cssobj2.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cssplayer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/csstime.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/inline_api.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/io.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/linkedlists.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/localtime.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lock.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/logger.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/md5.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/netsock2.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/network.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/options.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/poll-compat.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/private.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/proto.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/select.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/sha1.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/stringfields.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/strings.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/sysloger.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/term.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/threadstorage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/tzfile.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/unaligned.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main/cli.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="main/config.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="main/css_monitor.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="main/cssmm.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="main/cssobj2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="main/cssplayer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="main/io.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="main/localtime.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="main/lock.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="main/logger.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="main/md5.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="main/netsock2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="main/sha1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="main/strcompat.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="main/strings.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="main/sysloger.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="main/term.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="main/threadstorage.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="main/utils.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
