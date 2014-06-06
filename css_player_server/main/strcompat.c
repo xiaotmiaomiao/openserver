@@ -140,7 +140,6 @@ char *strndup(const char *s, size_t n)
 }
 #endif /* !defined(HAVE_STRNDUP) && !defined(__CSS_DEBUG_MALLOC) */
 
-
 #if !defined(HAVE_VASPRINTF) && !defined(__CSS_DEBUG_MALLOC)
 int vasprintf(char **strp, const char *fmt, va_list ap)
 {

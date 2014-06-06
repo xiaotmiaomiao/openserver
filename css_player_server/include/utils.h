@@ -29,7 +29,7 @@ extern "C" {
 #include "stringfields.h"
 #include "lock.h"
 #include "inline_api.h"
-
+#include "compat.h"
 /*!
 \note \verbatim
    Note:

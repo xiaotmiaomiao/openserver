@@ -8,8 +8,6 @@
  * \author root
  */
 
-//#include "cssplayer.h"
-
 /* When we include logger.h again it will trample on some stuff in syslog.h, but
  * nothing we care about in here. */
 #include <syslog.h>

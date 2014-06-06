@@ -24,12 +24,6 @@ static char prepdata[80] = "";
 static char enddata[80] = "";
 static char quitdata[80] = "";
 
-//define by self
-//int css_opt_no_color = 0;
-//int css_opt_console;
-//int css_opt_light_background;
-//int css_opt_force_black_background;
-
 static const char * const termpath[] = {
 	"/usr/share/terminfo",
 	"/usr/local/share/misc/terminfo",

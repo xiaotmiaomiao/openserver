@@ -20,7 +20,6 @@
 
 /*LINTLIBRARY*/
 
-//#include "css_player_background.h"
 #include <signal.h>
 #include <sys/stat.h>
 #include <fcntl.h>

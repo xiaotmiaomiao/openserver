@@ -18,6 +18,7 @@
 #endif
 
 #include "network.h"
+#include "compat.h"
 
 #define CSS_API_MODULE		/* ensure that inlinable API functions will be built in lock.h if required */
 #include "lock.h"

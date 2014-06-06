@@ -86,7 +86,7 @@ extern "C" {
 void closefrom(int lowfd);
 #endif
 
-#define HAVE_ASPRINTF 1 
+//#define HAVE_ASPRINTF 1 
 #if !defined(HAVE_ASPRINTF) && !defined(__CSS_DEBUG_MALLOC)
 int __attribute__((format(printf, 2, 3))) asprintf(char **str, const char *fmt, ...);
 #endif
@@ -149,7 +149,7 @@ uint64_t strtoq(const char *nptr, char **endptr, int base);
 int unsetenv(const char *name);
 #endif
 
-#define HAVE_VASPRINTF
+//#define HAVE_VASPRINTF
 #if !defined(HAVE_VASPRINTF) && !defined(__CSS_DEBUG_MALLOC)
 int __attribute__((format(printf, 2, 0))) vasprintf(char **strp, const char *fmt, va_list ap);
 #endif
